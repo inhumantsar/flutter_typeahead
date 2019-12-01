@@ -1206,6 +1206,7 @@ class _SuggestionsListState<T> extends State<_SuggestionsList<T>>
       padding: EdgeInsets.zero,
       primary: false,
       shrinkWrap: true,
+      scrollDirection: Axis.horizontal,
       reverse: widget.suggestionsBox.direction == AxisDirection.down
           ? false
           : true, // reverses the list to start at the bottom
